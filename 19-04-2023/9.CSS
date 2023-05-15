@@ -1,0 +1,42 @@
+.container{
+    /* border: solid; */
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 20px;
+    background-color: lightcyan;
+    
+}
+.product{
+    border: solid;
+    text-align: center;
+    padding: 20px;
+   
+}
+.product h2{
+    /* border: solid; */
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.product p{
+    color :blue;
+    font-size: 20px;
+    text-align: center;
+}
+.product button{
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.product img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
