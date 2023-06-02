@@ -1,0 +1,9 @@
+.container{
+    height: 50px;
+    background-color: blue;
+    margin-top: none;
+}
+#i1{
+    height: 100px;
+    width: 300px;
+}

@@ -1,0 +1,95 @@
+<html>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <head>
+        <title>Insta+</title>
+        <link type="icon" rel="icon" href="instagram1.png">
+    </head>
+    <tbody>
+        <div id="zz" class="container">
+            <div class="row" style="display: flex;">
+                <div id="a" class="col-3"></div>
+                <div id="b" class="col-3">
+                    <head>
+                        <script type="text/javascript">
+                            window.onload = function(){
+                                window.displayImgCount = 0;
+                                function cycleImage(){
+                                    if (displayImgCount !== 0) {
+                                        document.getElementById("img"+displayImgCount).style.display ="none";
+                                    }
+                                    displayImgCount = displayImgCount === 4 ? 1 : displayImgCount + 1;
+                                    document.getElementById("img" + displayImgCount).style.display = "block";
+                                    setTimeout(cycleImage, 2000);
+                                }
+                                cycleImage();
+                            }
+                        </script>
+                        </head>
+                        <body>
+                            <img id="img1" src="screenshot1.png" style="display: none">
+                            <img id="img2" src="screenshot2.png" style="display: none">
+                            <img id="img3" src="screenshot3.png" style="display: none">
+                            <img id="img4" src="screenshot4.png" style="display: none">
+                        </body>
+                </div>
+                
+                <div id="x7" class="col-3" >
+                    <div>
+                    <form>
+                        <div id="ii">
+                            <img class="" src="resumegram.png" alt="">
+                        </div>
+                    <div id="e">
+                    
+                    <span>Email</span><br>
+                    <input id="x1"  type="email" placeholder=""><br>
+                    <span>Password</span><br>
+                    <input id="x2" type="password" placeholder=""><br><br>
+                    <button style="border: solid 1px; border-radius: 2%;">Log-in</button>
+                    <p id="x4">
+                    ______________OR______________
+                    </p>
+                    <p>
+                        <img id="x6" src="https://w7.pngwing.com/pngs/752/373/png-transparent-computer-icons-facebook-logo-facebook-logo-fine-art-thumbnail.png" alt="">&nbsp;
+                        <a style="text-decoration: none;" href="#">Login with Facebook</a>
+                    </p>
+                    <p>
+                        <a style="text-decoration: none;" id="x5" href="">Forgotten Your Password?</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div id="d" class="col-3"></div>
+    </div>
+</div>
+</tbody>
+<div class="container">
+    <div class="row" style="display: flex;">
+        <div id="aa" class="col-3"></div>
+        <div id="bb" class="col-3"></div>
+        <div id="dd" class="col-3">
+            <p  id="ee">
+            Don't have an Account?
+            <a style="text-decoration: none;" href="">Sign Up</a>
+        </p>
+        </div>
+        <div id="ac" class="col-3"></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row" style="display: flex;">
+        <div id="aa" class="col-3"></div>
+        <div id="bb" class="col-3"></div>
+        <div id="ff" class="col-3" style="display: flex;">
+        <a href="https://play.google.com/store/search?q=instagram&c=apps"><img id="gg" src="googleplay.png" alt=""></a>
+        <a href="https://apps.microsoft.com/store/detail/instagram/9NBLGGH5L9XT"><img id="hh" src="microsoft logo.png" alt=""></a>
+        </div>
+        <div id="ac" class="col-3"></div>
+    </div>
+</div>
+        <link  rel="stylesheet" href="instastyle.css">
+
+    
+</html>

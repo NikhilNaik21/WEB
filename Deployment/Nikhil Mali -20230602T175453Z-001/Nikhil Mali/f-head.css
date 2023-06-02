@@ -1,0 +1,32 @@
+.row{
+    width: auto; height: 80px;
+    height: 100px;
+    /* border: solid red;  */
+    background-color: rgb(59, 89, 152);
+    display: flex;
+    }
+/* .col-3{ border: solid;} */
+/* .col-9{ border: solid;} */
+
+#i1{    
+        height: 34px;
+        width: 170px;
+        direction: rtl;
+        margin : 30px 0px 20px 250px;
+   }
+#b1
+{ 
+   text-align: center;
+   border: none;
+   margin: 30px 0px 20px 10px;
+   background-color: rgb(66, 183, 42); 
+   border-bottom: rgb(66, 183, 42);
+   font-size: 12px; 
+   font-weight: 700; 
+   height: 35px; 
+   width: auto;
+   line-height: 26px;
+   padding: 2px 10px 2px 10px; 
+   color: rgb(255, 255, 255); 
+   text-decoration-thickness: auto;
+}

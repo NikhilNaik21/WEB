@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Ass"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "InstaLoginPage"
+	}
+}
